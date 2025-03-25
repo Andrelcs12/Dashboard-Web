@@ -112,20 +112,20 @@ export default function Home() {
 
                 <div className="grid grid-cols-2 gap-4"> 
                   <div className="border-l-4 border- pl-4 border-green-800">
-                    <h1>Savings</h1>
-                    <h3>$159</h3>
+                    <h1 className='font-semibold'>Savings</h1>
+                    <h3 className='font-bold '>$159</h3>
                   </div>
                   <div className="border-l-4 border- pl-4 border-purple-700">
-                  <h1>Gift</h1>
-                  <h3>$40</h3>
+                  <h1 className='font-semibold'>Gift</h1>
+                  <h3 className='font-bold '>$40</h3>
                   </div>
                   <div className="border-l-4 border- pl-4 border-blue-500">
-                  <h1>Concert Ticket</h1>
-                  <h3>$110</h3>
+                  <h1 className='font-semibold'>Concert Ticket</h1>
+                  <h3 className='font-bold '>$110</h3>
                   </div>
                   <div className="border-l-4 border- pl-4 border-amber-400">
-                  <h1>New Laptop</h1>
-                  <h3>$125</h3>
+                  <h1 className='font-semibold'>New Laptop</h1>
+                  <h3 className='font-bold '>$125</h3>
                   </div>
                 </div>
               </div>
@@ -190,21 +190,21 @@ export default function Home() {
               <div>
                 <ul className='flex flex-col gap-8'>
                   <li className='border-l-4 border-green-800 px-2'>
-                    <h1>Entertainment</h1>
-                    <h2>$50.00</h2>
+                    <h1 className='font-semibold'>Entertainment</h1>
+                    <h2 className='font-bold'>$50.00</h2>
                     
                   </li>
                   <li className='border-l-4 border-blue-800 px-2'>
-                    <h1>Biils</h1>
-                    <h2>$750.00</h2>
+                    <h1 className='font-semibold'>Biils</h1>
+                    <h2 className='font-bold'>$750.00</h2>
                   </li>
                   <li className='border-l-4 border-orange-800 px-2'>
-                    <h1>Dining Out</h1>
-                    <h2>$75.00</h2>
+                    <h1 className='font-semibold'>Dining Out</h1>
+                    <h2 className='font-bold'>$75.00</h2>
                   </li>
                   <li className='border-l-4 border-purple-800 px-2'>
-                    <h1>Personal Care</h1>
-                    <h2>$150.00</h2>
+                    <h1 className='font-semibold'>Personal Care</h1>
+                    <h2 className='font-bold'>$150.00</h2>
                   </li>
                 </ul>
               </div>
@@ -225,15 +225,15 @@ export default function Home() {
 
               <div className='flex flex-col h-full justify-around'>
                 <div className='bg-orange-100 flex justify-between px-4 py-5 rounded-md border-l-4 border-green-700'>
-                  <h1>Paid Bills</h1>
+                  <h1 className='font-medium'>Paid Bills</h1>
                   <h2 className='font-bold'> $190.00</h2>
                 </div>
                 <div className='bg-orange-100 flex justify-between px-4 py-5 rounded-md border-l-4 border-blue-500 '>
-                <h1>Total Upcoming</h1>
+                <h1 className='font-medium'>Total Upcoming</h1>
                 <h2 className='font-bold'> $194.98</h2>
                 </div>
                 <div className='bg-orange-100 flex justify-between px-4 py-5 rounded-md border-l-4 border-orange-400'>
-                <h1>Due Soon</h1>
+                <h1 className='font-medium'>Due Soon</h1>
                 <h2 className='font-bold'> $59.78</h2>
                 </div>
               </div>
